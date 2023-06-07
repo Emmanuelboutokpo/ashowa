@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+.navbar-collapse {
+     flex-basis: 100%;
+     flex-grow: 0;
+     align-items: center;
+ }
+ .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    float: right;
+    align-items: center;
+    justify-content: center;
+}
+ .navbar{
+     background: #1A506D;
+     height: 65px;
+ }
+
+ .menus{
+    margin: 0 25px; 
+ }
+
+ .ashowa{
+     width: 50px;
+     margin-bottom: 1rem;
+ }
+
+ .titleBrand{
+    color: #FFFFFF;
+    margin-bottom: 0;
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 41px;
+    letter-spacing: 0.15em;
+    margin-left: 13px;
+ }
+
+ .hrf{
+    width: 30px;
+    border: 1px solid #66686C;
+    transform: rotate(90deg);
+ }
+
+
+ .brands{
+    text-decoration: none;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.nav-item{
+     margin: 0 5px;
+}
+
+.nav-link{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+}
+
+.log{
+    border: 1px solid #8487A4;
+    background:#8487A4 ;
+}
+
+ .cart{
+    width: 20px;
+    height: 20px;
+ }
+
+ @media (max-width: 600px) {
+   .navbar-collapse{
+    background-color: #000000e0;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    height: 163px;
+    right: 0;
+    z-index: 4;
+   }
+  
+   .nav-item:hover{
+     border: 1px solid #000000e0;
+     background-color: white;
+     padding: 0 10px;
+     margin: 0;
+   }
+}

@@ -1,0 +1,14 @@
+@media (max-width: 600px) {
+     .filter-widget {
+          margin-bottom: 54px;
+      }
+
+      .spad {
+          padding-top: 60px;
+          padding-bottom: 5px;
+      }
+
+      .filter-widget .fw-title {
+          margin-bottom: 28px;
+      }
+  }

@@ -1,0 +1,122 @@
+.app__pub_img img{
+     width: 100%;
+     border-radius: 10px;
+  }
+ 
+ .app__pub{
+     margin-bottom: 45px;
+ }
+ 
+ .app__pub:last-child{
+     margin-bottom: 0;
+ }
+ 
+ .card h1{
+     font-family: var(--font-alt);
+     color: #efd200;
+     font-weight: 400;
+     letter-spacing: 0.04em;
+     line-height: 43px;
+ }
+ 
+ .card p{
+     font-family: var(--font-alt);
+     color: var(--color-white);
+     font-weight: 400;
+     letter-spacing: 0.04em;
+     line-height: 28px;
+ }
+ 
+ .dtes{
+     font-family: var(--font-alt);
+     color: #e397c4!important;
+     font-weight: 400;
+     letter-spacing: 0.04em;
+     line-height: 28px;
+ }
+ 
+ .app__pub-images_card {
+     position: relative;
+     min-width: 301px;
+     height: 447px;
+     margin-right: 2rem;
+ }
+ 
+ .app__pub-images_card img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     opacity: 1;
+     transition: .5s ease;
+ }
+ 
+ .app__pub-images_card:hover img {
+     opacity: .35;
+ }
+ 
+ .app__pub-images_card:hover .pub__image-icon {
+     opacity: 1;
+ }
+ 
+ .pub__image-icon {
+     position: absolute;
+     color: #1A506D;
+     font-size: 2rem;
+     opacity: 0;
+     transition: .5s ease;
+     cursor: pointer;
+     background-color: transparent;
+     border-radius: 5px;
+     border: 1px solid;
+     font-size: 14px;
+     padding: 0.5rem;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     width: 7rem;
+ }
+ 
+ .svgEye{
+     vertical-align: middle;
+     font-size: 1.2rem;
+}
+  
+ .flex__app__center {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .pi-text{
+    display: flex;
+    position: absolute;
+    bottom:0;
+    align-items: center;
+ }
+
+ .pi-para{ 
+   font-size: 16px;
+   color: #ffffff;
+   line-height: 1.6;
+   margin: 0 9rem 0 0px;
+   font-weight: 500;
+ }
+
+ .pi-price{
+   color: #f5eeee;
+   margin-bottom: 0;
+ }
+
+ .add-card{
+     border: none;
+     background-color: transparent;
+ }
+
+ .flaticon-bag{
+     font-size: 1.5rem;
+ }
+
+ .flaticon-heart{
+     font-size: 1.5rem;
+     color: #000;
+ }
